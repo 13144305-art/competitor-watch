@@ -1,1 +1,60 @@
-<!doctype html><html lang='zh-CN'><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>竞品动态监测</title><style>body{font:16px Arial;background:#f4f6f3;margin:0;color:#202923}header{background:#10251f;color:white;padding:30px}main{max-width:1000px;margin:auto;padding:24px}.row{display:grid;grid-template-columns:1fr 250px;gap:14px}.card,aside{background:white;border:1px solid #ddd;border-radius:12px;padding:16px;margin:10px 0}.tag{color:#08704e}a{color:#08704e}button,input,select{padding:10px;border:1px solid #ddd;border-radius:9px;margin:4px}@media(max-width:700px){.row{grid-template-columns:1fr}}</style><header><h1>内容到购买 · 竞品动态</h1>SHEIN · Temu · TikTok Shop · AliExpress</header><main><p>英国市场监测快照　更新至 2026 年 11 月 23 日</p><button onclick="f('全部')">全部</button><button onclick="f('SHEIN')">SHEIN</button><button onclick="f('Temu')">Temu</button><button onclick="f('TikTok Shop')">TikTok Shop</button><button onclick="f('AliExpress')">AliExpress</button><input id='q' placeholder='搜索动态' oninput='render()'><select id='k' onchange='render()'><option>全部主题</option><option>活动与促销</option><option>内容与达人</option><option>履约与政策</option><option>用户反馈</option></select><div class='row'><section id='feed'></section><aside><h3>观察摘要</h3><p>推荐流和直播帮助商品发现，买家评价和规格信息支持临门决策。</p><p>TikTok Shop英国符合条件节日订单可退货至2027年1月31日。</p><p>公开资料缺少统一转化率口径，暂不能进行平台转化排名。</p><hr><p>页面提供平台筛选、主题筛选与关键词搜索。资料为截至11月23日核验的快照，未连接自动刷新。</p></aside></div></main><script>let B='全部',D=[['11.20','TikTok Shop','履约与政策','英国节日订单退货窗口延长','符合条件的订单可退货至2027年1月31日。','https://seller-uk.tiktok.com/university/essay?knowledge_id=272049231120150&lang=en-GB'],['11.13','TikTok Shop','内容与达人','英国直播购物报告','每日逾6000场直播购物，直播销售同比增长55%。','https://newsroom.tiktok.com/tiktokshoplivereport?lang=en-GB'],['11.13','TikTok Shop','活动与促销','英国黑五直播促销开启','活动从11月13日至30日，直播演示和实时答疑是重要触点。','https://homeofdirectcommerce.com/news/tiktok-shop-live-shopping-report/'],['11.19','AliExpress','活动与促销','双十一转入黑五网一','英国促销季预计持续至12月3日，优惠券与本地仓承接需求。','https://beyondthebasket.co.uk/aliexpress-runs-five-week-uk-sale-from-11-11-through-to-cyber-monday/'],['11.12','SHEIN','活动与促销','英国站启动大促抽奖','官方规则显示活动于11月12日开始。','https://m.shein.co.uk/sheinbigsale-blackfriday-sweepstakes-official-rules-2026-a-4069.html'],['11月','Temu','用户反馈','返现条件不够直观','英国App Store评论提及返现或购物金后续条件。','https://apps.apple.com/gb/app/temu-shop-like-a-billionaire/id1641486558?platform=iphone&see-all=reviews']];function f(x){B=x;render()}function render(){let q=document.querySelector('#q').value.toLowerCase(),k=document.querySelector('#k').value;document.querySelector('#feed').innerHTML=D.filter(x=>(B==='全部'||x[1]===B)&&(k==='全部主题'||x[2]===k)&&x.slice(1,5).join(' ').toLowerCase().includes(q)).map(x=>`<article class='card'><small>${x[0]}.2026</small><div class='tag'>${x[1]} · ${x[2]}</div><h3>${x[3]}</h3><p>${x[4]}</p><a href='${x[5]}' target='_blank'>查看来源 ↗</a></article>`).join('')||'无匹配动态'}render()</script></html>
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>从种草到下单｜英国电商竞品观察</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f2f5ed;color:#172923;font:16px/1.6 system-ui,sans-serif}header{background:#102c24;color:#fff;padding:50px max(24px,calc((100% - 1080px)/2));border-bottom:6px solid #cee67f}header p{color:#d5e6d7}h1{font-size:clamp(40px,7vw,78px);line-height:1.15;margin:12px 0}main{max-width:1128px;margin:auto;padding:28px 24px}h2{margin:20px 0 8px}button,input,select{font:inherit;border:1px solid #afc2b5;border-radius:8px;background:#fff;color:#14382a;padding:9px 12px}button{cursor:pointer;text-align:left}button[aria-pressed=true]{background:#cee67f;border-color:#51743c;font-weight:bold}a{color:#14553b}header a{color:#def49b}.matrix{display:grid;grid-template-columns:minmax(90px,.7fr) repeat(3,minmax(0,1fr));gap:8px;align-items:stretch}.matrix strong{align-self:center}.matrix button{min-height:55px}.detail{background:#dfeadd;border-left:4px solid #386c4e;padding:15px 20px;margin:16px 0 40px}.detail p{margin:6px 0}.filters{display:flex;flex-wrap:wrap;gap:8px}.filters input{flex:1;min-width:150px}.entry{border-bottom:1px solid #bacbbb;padding:18px 0;display:grid;grid-template-columns:90px 1fr;gap:12px}.entry h3,.entry p{margin:4px 0}.muted,time{color:#475e51}.entry small{color:#266247}@media(max-width:560px){main{padding:18px 12px}.matrix{gap:4px;grid-template-columns:72px repeat(3,minmax(0,1fr));font-size:13px}.matrix button{padding:5px}.entry{grid-template-columns:62px 1fr}}
+</style>
+<header><div>英国电商竞品观察 · 2026 年 11 月 25 日快照</div><h1>从种草到下单</h1><p>四个平台，三步对照。看内容如何引起兴趣、建立信任，再把用户带到结账。</p><a href="#timeline">查看动态时间线</a></header>
+<main><h2>购买路径对照</h2><p class="muted">点击任一格查看运营做法与参考来源。</p>
+<div class="matrix" id="matrix"><strong>平台</strong><strong>发现商品</strong><strong>验证商品</strong><strong>下单</strong></div>
+<section class="detail" id="detail" aria-live="polite"></section>
+<section id="timeline"><h2>动态时间线</h2><p class="muted">公开资料整理。活动日期与记录日期按条目标注。</p>
+<div class="filters"><input type="search" id="query" aria-label="搜索动态" placeholder="搜索直播、返现、黑五"><select id="platform" aria-label="平台"></select><select id="topic" aria-label="主题"></select></div>
+<p id="count" class="muted" aria-live="polite"></p><div id="feed"></div></section>
+<p class="muted">公开资料缺少统一的点击与订单归因数据，无法进行跨平台转化率排名。</p></main>
+<script>
+const news = [['11.20','TikTok Shop','履约与政策','英国节日订单退货窗口延长','符合条件的订单可退货至2027年1月31日。','https://seller-uk.tiktok.com/university/essay?knowledge_id=272049231120150&lang=en-GB'],['11.13','TikTok Shop','内容与达人','英国直播购物报告','每日逾6000场直播购物，直播销售同比增长55%。','https://newsroom.tiktok.com/tiktokshoplivereport?lang=en-GB'],['11.13','TikTok Shop','活动与促销','英国黑五直播促销开启','活动从11月13日至30日，直播演示和实时答疑是重要触点。','https://homeofdirectcommerce.com/news/tiktok-shop-live-shopping-report/'],['11.19','AliExpress','活动与促销','双十一转入黑五网一','英国促销季预计持续至12月3日，优惠券与本地仓承接需求。','https://beyondthebasket.co.uk/aliexpress-runs-five-week-uk-sale-from-11-11-through-to-cyber-monday/'],['11.12','SHEIN','活动与促销','英国站启动大促抽奖','官方规则显示活动于11月12日开始。','https://m.shein.co.uk/sheinbigsale-blackfriday-sweepstakes-official-rules-2026-a-4069.html'],['11月','Temu','用户反馈','返现条件不够直观','英国App Store评论提及返现或购物金后续条件。','https://apps.apple.com/gb/app/temu-shop-like-a-billionaire/id1641486558?platform=iphone&see-all=reviews'],['11.21-30','SHEIN','活动与促销','英国 PayPal 黑五优惠上线','符合条件的英国订单满 £45 使用 PayPal 支付可享 8% 优惠，最高减 £5，活动至 11 月 30 日或名额用完。','https://www.shein.co.uk/shein-2026-bfcm-paypal-payment-discount-tcs-a-4077.html'],['11.25','英国市场','活动与促销','黑五进入活动高峰前夕','黑色星期五为 11 月 27 日，网购仍是主要渠道。PwC 预测英国今年黑五消费约 £6.6bn，该数据是市场预测，不代表四个平台的实际成交。','https://www.pwc.co.uk/press-room/press-releases/research-commentary/2026/uk-consumers-forecast-to-spend-p6-6bn-this-black-friday-as-shopp.html']];
+const paths = [
+['SHEIN', ['穿搭灵感','在穿搭社区浏览搭配，发现与风格相关的商品。','https://m.shein.co.uk/shein-gals-guidelines-a-2149.html'],['买家晒单','用买家文字和实拍辅助判断尺码与上身效果。','https://roe.shein.com/review-guidance-a-478.html'],['商品页结账','进入商品页确认款式与尺码。符合条件的英国订单可在结账时使用 PayPal 黑五优惠。',news[6][5]]],
+['Temu',['达人好物分享','创作者用测评和好物清单吸引站外访问。','https://www.temu.com/influencer-recruit.html'],['查看优惠条件','核对新客资格、门槛和返现条件。英国 App Store 有评论提及后续条件不够直观。',news[5][5]],['联盟链接导流','用户从分享链接或推荐码进入平台，按适用条款使用优惠。','https://www.temu.com/uk/affiliate_recruit.html']],
+['TikTok Shop',['短视频与推荐','可购物视频让用户在浏览内容时发现商品。','https://business.tiktokshop.com/gb/creator/'],['直播演示与答疑','主播展示实际使用方式，并回答有关规格或效果的问题。',news[1][5]],['站内商品链接','从内容中的商品链接进入站内购买流程。','https://business.tiktokshop.com/gb/creator/live']],
+['AliExpress',['YouTube 商品标签','符合条件的创作者可在长视频、Shorts 和直播里标记商品。','https://www.prnewswire.com/news-releases/aliexpress-and-youtube-announce-global-strategic-affiliate-partnership-302913625.html'],['搜索与核对规格','进入商品目录后核对型号、配件与买家评价。','https://apps.apple.com/gb/app/aliexpress-shopping-app/id436672029?platform=iphone&see-all=reviews'],['活动与配送承接','英国促销以优惠券和本地仓供给承接商品需求。',news[3][5]]]
+];
+const byId = id => document.getElementById(id);
+function show(button, brand, item) {
+  byId('matrix').querySelectorAll('button').forEach(node => node.setAttribute('aria-pressed', String(node === button)));
+  byId('detail').innerHTML = '<strong>'+brand+' · '+item[0]+'</strong><p>'+item[1]+'</p><a target="_blank" rel="noopener" href="'+item[2]+'">查看参考来源</a>';
+}
+for (const [brand, ...stages] of paths) {
+  const label = document.createElement('strong');
+  label.textContent = brand;
+  byId('matrix').append(label);
+  stages.forEach(item => {
+    const button = document.createElement('button');
+    button.textContent = item[0];
+    button.setAttribute('aria-label', brand+' '+item[0]);
+    button.setAttribute('aria-pressed','false');
+    button.onclick = () => show(button, brand, item);
+    byId('matrix').append(button);
+  });
+}
+byId('matrix').querySelector('button').click();
+function options(id, values) {
+  for (const value of values) byId(id).add(new Option(value, value));
+}
+options('platform',['全部平台',...paths.map(row=>row[0]),'英国市场']);
+options('topic',['全部主题',...new Set(news.map(row=>row[2]))]);
+function render() {
+  const query = byId('query').value.trim().toLowerCase();
+  const platform = byId('platform').value;
+  const topic = byId('topic').value;
+  const records = news.filter(row => (platform==='全部平台'||row[1]===platform) && (topic==='全部主题'||row[2]===topic) && row.slice(1,5).join(' ').toLowerCase().includes(query));
+  records.sort((a,b)=>(parseFloat(b[0])||0)-(parseFloat(a[0])||0));
+  byId('count').textContent = records.length+' 条动态';
+  byId('feed').innerHTML = records.map(([date, brand, type, title, summary, url]) => '<article class="entry"><time>'+date+'</time><div><small>'+brand+' · '+type+'</small><h3>'+title+'</h3><p>'+summary+'</p><a target="_blank" rel="noopener" href="'+url+'">查看来源</a></div></article>').join('') || '<p>没有匹配的动态。</p>';
+}
+byId('query').oninput = render;
+byId('platform').onchange = render;
+byId('topic').onchange = render;
+render();
+</script></html>
